@@ -73,3 +73,6 @@ console.log(`${spaceShuttle.name} would take ${spaceShuttle.getDaysToLocation(ki
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('Mars', kilometersToMars));
 spaceShuttle.printDaysToLocation(new SpaceLocation_1.SpaceLocation('the Moon', kilometersToTheMoon));
 // compile and run!
+
+// NOTE: Do not branch to solutions or store in solutions.
+// Push to the master branch as usual. Don't get confused like I did at step 7!
