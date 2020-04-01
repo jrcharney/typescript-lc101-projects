@@ -2,6 +2,8 @@
 exports.__esModule = true;
 var Rocket = /** @class */ (function () {
     function Rocket(name, totalCapacityKg) {
+        this.cargoItems = []; // For some reason, I need to add "= []" after declaring an array?
+        this.astronauts = [];
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
     }

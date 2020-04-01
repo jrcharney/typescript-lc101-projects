@@ -5,8 +5,8 @@ import { Payload } from "./Payload";
 export class Rocket {
     name : string;
     totalCapacityKg : number;
-    cargoItems : Cargo[];
-    astronauts : Astronaut[];
+    cargoItems : Cargo[] = [];      // For some reason, I need to add "= []" after declaring an array?
+    astronauts : Astronaut[] = [];
     constructor(name : string, totalCapacityKg : number) {
         this.name = name;
         this.totalCapacityKg = totalCapacityKg;
